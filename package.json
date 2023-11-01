@@ -1,0 +1,33 @@
+{
+  "name": "commanderjs-example",
+  "version": "0.1.0",
+  "description": "commander.js example",
+  "author": "litsynp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litsynp/commanderjs-example"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "build": "tsc -build",
+    "convert-case": "ts-node src/scripts/convert-case"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@commander-js/extra-typings": "^11.1.0",
+    "@types/node": "^20.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
